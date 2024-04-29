@@ -55,7 +55,7 @@ string[] StringLengthLess3 (string[] arr) //создание нового мас
 
 }
 
-string[] st1 = { "1234", "1567", "-2565", "funny dog", "КhОТ" };
+string[] st1 = { "1234", "1567", "-25", "funny dog", "КРОТ" };
 System.Console.WriteLine($"Исходный массив:");
 PrintArr(st1);
 string[] st2= StringLengthLess3 (st1);
