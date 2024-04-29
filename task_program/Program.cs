@@ -12,52 +12,52 @@
 
 void PrintArr(string[] arr) // печать массива
 {
-   if (arr.Length==0)
-   {
-     System.Console.WriteLine("[]");
-   }
-    else
+  if (arr.Length == 0)
+  {
+    System.Console.WriteLine("[]");
+  }
+  else
+  {
+    System.Console.Write("[ ");
+    for (int i = 0; i < arr.Length - 1; i++)
     {
-      System.Console.Write("[ ");
-      for (int i = 0; i < arr.Length - 1; i++)
-      {
-        System.Console.Write($"'{arr[i]}', ");
-      }
-      System.Console.Write($"'{arr[arr.Length - 1]}' ]");
-      System.Console.WriteLine();
+      System.Console.Write($"'{arr[i]}', ");
     }
+    System.Console.Write($"'{arr[arr.Length - 1]}' ]");
+    System.Console.WriteLine();
+  }
 }
-string[] StringLengthLess3 (string[] arr) //создание нового массива из строк, длина которых меньше, либо равна 3 символам.
+string[] StringLengthLess3(string[] arr) //создание нового массива из строк, длина которых меньше, либо равна 3 символам.
 {
-    int sizenewarr=0;
+  int sizenewarr = 0;
+  for (int i = 0; i < arr.Length; i++)
+  {
+    if (arr[i].Length < 4)
+    {
+      sizenewarr++;
+    }
+  }
+  string[] newarr = new string[sizenewarr];
+  if (sizenewarr > 0)
+  {
+    int j = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-      if (arr[i].Length<4)
+      if (arr[i].Length < 4)
       {
-        sizenewarr++;
+        newarr[j] = arr[i];
+        j++;
       }
     }
-    string[] newarr= new string [sizenewarr];
-    if (sizenewarr>0)
-    {
-            int j=0;
-      for (int i = 0; i < arr.Length; i++)
-      {
-        if (arr[i].Length<4)
-        {
-          newarr[j]=arr[i];
-          j++;
-        }
-      }
-    }
-    
-    return newarr;
+  }
+
+  return newarr;
 
 }
 
-string[] st1 = { "1234", "1567", "-25", "funny dog", "КРОТ" };
+string[] st1 = { "1234", "1567", "-25", "funny dog", "КОТ" };
 System.Console.WriteLine($"Исходный массив:");
 PrintArr(st1);
-string[] st2= StringLengthLess3 (st1);
+string[] st2 = StringLengthLess3(st1);
 System.Console.WriteLine($"Новый массив:");
 PrintArr(st2);
