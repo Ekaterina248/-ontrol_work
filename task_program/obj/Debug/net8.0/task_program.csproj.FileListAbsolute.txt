@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\final_control_work\task_program\obj\Debug\net8.0\task_program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\final_control_work\task_program\obj\Debug\net8.0\task_program.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\final_control_work\task_program\obj\Debug\net8.0\task_program.AssemblyInfo.cs
+C:\Users\User\Desktop\final_control_work\task_program\obj\Debug\net8.0\task_program.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\final_control_work\task_program\bin\Debug\net8.0\task_program.exe
+C:\Users\User\Desktop\final_control_work\task_program\bin\Debug\net8.0\task_program.deps.json
+C:\Users\User\Desktop\final_control_work\task_program\bin\Debug\net8.0\task_program.runtimeconfig.json
+C:\Users\User\Desktop\final_control_work\task_program\bin\Debug\net8.0\task_program.dll
+C:\Users\User\Desktop\final_control_work\task_program\bin\Debug\net8.0\task_program.pdb
+C:\Users\User\Desktop\final_control_work\task_program\obj\Debug\net8.0\task_program.dll
+C:\Users\User\Desktop\final_control_work\task_program\obj\Debug\net8.0\refint\task_program.dll
+C:\Users\User\Desktop\final_control_work\task_program\obj\Debug\net8.0\task_program.pdb
+C:\Users\User\Desktop\final_control_work\task_program\obj\Debug\net8.0\task_program.genruntimeconfig.cache
+C:\Users\User\Desktop\final_control_work\task_program\obj\Debug\net8.0\ref\task_program.dll
